@@ -16,3 +16,6 @@ git checkout <branch name> --> change branch
 
 git clone -b <branch name> https://github.com/jewel4qa/SeleniumTestAutomation.git
 
+
+git add .
+
