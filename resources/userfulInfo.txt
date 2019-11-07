@@ -28,4 +28,6 @@ git push--> update changes to git hub
 
 git add . <Priyanka recommand>
 
+git diff HEAD <filename>
+
 

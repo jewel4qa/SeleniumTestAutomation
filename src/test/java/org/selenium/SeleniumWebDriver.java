@@ -17,7 +17,11 @@ public class SeleniumWebDriver {
 	public static void openBrowser(String browserName,String appUrl) {
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/chromedriver");
+			if(System.getProperty("os.name").toLowerCase().contains("mac")) {
+//				System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/chromedriver");
+			}else {
+				 System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\driver\\chromedriver.exe");
+			}
 			driver=new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
