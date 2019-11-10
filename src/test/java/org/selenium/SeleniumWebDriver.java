@@ -4,13 +4,14 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SeleniumWebDriver {
-	static WebDriver driver;
+	public static WebDriver driver;
 	
 	
 	
@@ -66,6 +67,31 @@ public class SeleniumWebDriver {
 	  if(element.size()>0) {
 		  if(driver.findElement(locator).isEnabled()) {
 			  driver.findElement(locator).click();
+			  System.out.println(locator + " clicked Successfully!!");
+		  }else {
+			  System.out.println(locator +" disable!!");
+		  }
+		  
+	  }else {
+		  System.out.println(locator + " doesn't exists!!");
+	  }
+  }
+  
+  
+  public static void clickWithJS(By locator) {
+	  List<WebElement> elements = driver.findElements(locator);
+	  if(elements.size()>0) {
+		  WebElement element=driver.findElement(locator);
+		  if(element.isEnabled()) {
+			  
+			  JavascriptExecutor js = (JavascriptExecutor) driver;
+			  try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			  js.executeScript("arguments[0].click();", element);
 			  System.out.println(locator + " clicked Successfully!!");
 		  }else {
 			  System.out.println(locator +" disable!!");
