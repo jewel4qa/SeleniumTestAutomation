@@ -30,7 +30,8 @@ public class Search_Flight {
 	
 	WebElement fromMonth=SeleniumWebDriver.driver.findElement(By.name("fromMonth"));
 	
-	List<WebElement> options =fromMonth.findElements(By.xpath("//option"));
+	//List<WebElement> options =fromMonth.findElements(By.tagName("option"));
+	List<WebElement> options =fromMonth.findElements(By.xpath(".//option"));
 	
 	for(WebElement opt:options) {
 		System.out.println(opt.getText());
