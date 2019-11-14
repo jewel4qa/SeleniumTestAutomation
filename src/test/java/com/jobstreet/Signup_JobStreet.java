@@ -15,6 +15,7 @@ public class Signup_JobStreet {
 		
 		SeleniumWebDriver.clickWithJS(By.id("header-signup-button"));
 
+		//SeleniumWebDriver.
 	}
 
 }
