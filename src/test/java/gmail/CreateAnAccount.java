@@ -1,5 +1,4 @@
-package priyanka;
-
+package gmail;
 
 import java.util.concurrent.TimeUnit;
 
@@ -52,17 +51,17 @@ public class CreateAnAccount {
 		}
 
 		// driver.findElement(By.name("firstName")).sendKeys("Priya");
-		CreateAccount.type(By.className("firstname"), "Priya");
-		CreateAccount.type(By.name("lastName"), "Pu");
-		CreateAccount.type(By.name("address1"), "123 Jump Streat");
-		CreateAccount.type(By.name("city"), "Jumper");
-		CreateAccount.type(By.name("state"), "Chittagong");
-		CreateAccount.type(By.name("postalCode"), "31456");
+		CreateAnAccount.type(By.className("firstname"), "Priya");
+		CreateAnAccount.type(By.name("lastName"), "Pu");
+		CreateAnAccount.type(By.name("address1"), "123 Jump Streat");
+		CreateAnAccount.type(By.name("city"), "Jumper");
+		CreateAnAccount.type(By.name("state"), "Chittagong");
+		CreateAnAccount.type(By.name("postalCode"), "31456");
 		Select drpCountry = new Select(driver.findElement(By.name("country")));
 		drpCountry.selectByVisibleText("BANGLADESH");
-		CreateAccount.type(By.name("email"), "pu@gmail.com");
-		CreateAccount.type(By.name("password"), "abcd1");
-		CreateAccount.type(By.name("confirmPassword"), "abcd1");
+		CreateAnAccount.type(By.name("email"), "pu@gmail.com");
+		CreateAnAccount.type(By.name("password"), "abcd1");
+		CreateAnAccount.type(By.name("confirmPassword"), "abcd1");
 
 		/*
 		 * driver.findElement(By.name("lastName")).sendKeys("Pu");
