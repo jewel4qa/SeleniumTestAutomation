@@ -31,3 +31,7 @@ git add . <Priyanka recommand>
 git diff HEAD <filename>
 
 
+
+https://www.toolsqa.com/
+https://www.toolsqa.com/selenium-webdriver/selenium-interview-questions-part-1/
+
