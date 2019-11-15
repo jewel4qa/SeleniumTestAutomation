@@ -17,11 +17,12 @@ public class LogingIntoJobstreetHAHA {
 		SeleniumWebDriver.click(By.id("login_btn"));
 		//SeleniumWebDriver.clickWithJS(By.className("experience-content"));
 		SeleniumWebDriver.click(By.id("lbl_student"));
-		SeleniumWebDriver.click(By.id("select2-nationality_code-container"));
+		//SeleniumWebDriver.click(By.id("select2-nationality_code-container"));
 		//SeleniumWebDriver.click(By.id("select2-nationality_code-result-b8xa-150"));
 		//SeleniumWebDriver.click(By.id("select2-nationality_code-result-mxh7-147"));
-		SeleniumWebDriver.click(By.id("select2-state_code-container"));
+		//SeleniumWebDriver.click(By.id("select2-state_code-container"));
 		//SeleniumWebDriver.click(By.id("select2-state_code-result-232m-85"));
+		SeleniumWebDriver.selctVisibleText(By.id("select2-nationality_code-container"), "Maldives");
 		
 		
 		
