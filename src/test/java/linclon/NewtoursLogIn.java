@@ -33,7 +33,7 @@ public class NewtoursLogIn {
 		SeleniumWebDriver.selctUsingValue(By.name("pass.0.meal"), "DBML");
 		SeleniumWebDriver.selctUsingValue(By.name("creditCard"), "CB");
 		SeleniumWebDriver.type(By.name("creditnumber"), "55351111333244");
-		SeleniumWebDriver.selctUsingValue(By.name("cc_exp_dt_mn"), "05");
+		SeleniumWebDriver.selctVisibleText(By.name("cc_exp_dt_mn"), "05");
 		SeleniumWebDriver.selctUsingValue(By.name("cc_exp_dt_yr"), "2004");
 		SeleniumWebDriver.type(By.name("cc_frst_name"), "AhaAha");
 		SeleniumWebDriver.type(By.name("cc_mid_name"), "HH");
