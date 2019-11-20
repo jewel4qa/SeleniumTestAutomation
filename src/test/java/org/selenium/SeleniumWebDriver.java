@@ -72,7 +72,7 @@ public class SeleniumWebDriver {
 	 * @return void
 	 * @author ag9068
 	 */
-	public static void click(By locator) {
+	public static WebElement click(By locator) {
 		List<WebElement> element = driver.findElements(locator);
 		if(element.size()>0) {
 			if(driver.findElement(locator).isEnabled()) {
