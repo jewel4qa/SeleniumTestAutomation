@@ -1,4 +1,4 @@
-package priyanka;
+/*package priyanka;
 
 
 import java.util.concurrent.TimeUnit;
@@ -16,10 +16,10 @@ public class CreateAnAccount {
 
 		System.out.println(System.getProperty("user.dir"));
 
-		/*
+		
 		 * for Chrome dirver
 		 * 
-		 */
+		 
 
 		// System.setProperty("webdriver.chrome.driver",
 		// "C:\\Users\\grk4m\\eclipse-workspace\\gmail\\src\\test\\driver\\chromedriver.exe")
@@ -33,10 +33,10 @@ public class CreateAnAccount {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 		// expelicit wait is hard wait-- allocate fixed wait time
-		/*
+		
 		 * try { Thread.sleep(30000); } catch (InterruptedException e) { // TODO
 		 * Auto-generated catch block e.printStackTrace(); }
-		 */
+		 
 		driver.manage().window().maximize();
 		driver.get("http://newtours.demoaut.com/");
 
@@ -64,7 +64,7 @@ public class CreateAnAccount {
 		CreateAccount.type(By.name("password"), "abcd1");
 		CreateAccount.type(By.name("confirmPassword"), "abcd1");
 
-		/*
+		
 		 * driver.findElement(By.name("lastName")).sendKeys("Pu");
 		 * 
 		 * driver.findElement(By.name("address1")).sendKeys("123 Jump Streat");
@@ -78,15 +78,15 @@ public class CreateAnAccount {
 		 * driver.findElement(By.name("password")).sendKeys("abcd1");
 		 * driver.findElement(By.name("confirmPassword")).sendKeys("abcd1");
 		 * driver.findElement(By.name("register")).click();
-		 */
+		 
 
-		/*
+		
 		 * boolean isDisplay1=
 		 * driver.getPageSource().contains("Thank you for registering"); if ( isDisplay1
 		 * == true) { System.out.println("Good Job!!!"); }else {
 		 * System.out.println("Try Harder!!"); }
 		 * 
-		 */
+		 
 		int isDisplay1 = driver.findElements(By.xpath("//font[contains(text(),'Thank you ford')]")).size();
 
 		if (isDisplay1 > 0) {
@@ -99,9 +99,9 @@ public class CreateAnAccount {
 
 		// driver.quit();
 
-		/*
+		
 		 * for firefox
-		 */
+		 
 
 		// Selenium IDE
 		// Selenium RC
@@ -124,3 +124,4 @@ public class CreateAnAccount {
 	}
 
 }
+*/

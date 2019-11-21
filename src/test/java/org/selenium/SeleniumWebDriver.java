@@ -12,6 +12,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import junit.framework.Assert;
+
 public class SeleniumWebDriver {
 	public static WebDriver driver;
 
@@ -44,11 +46,15 @@ public class SeleniumWebDriver {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
 		}
-		
-		
+
+
 	}
 
-
+	/**
+	 * type: method click on any given location.
+	 * @param locator Expect By.locatorName("locatorValue")..
+	 * @return void
+	 */
 
 	public static void type(final By locator, String valueToType) {		
 		List<WebElement> element = driver.findElements(locator);
@@ -131,7 +137,7 @@ public class SeleniumWebDriver {
 			}else {
 				System.out.println(locator + " disable!!!");
 			}
-			
+
 		}else {
 			System.out.println(locator + " doesn't exists!!!");
 		}
@@ -159,7 +165,7 @@ public class SeleniumWebDriver {
 			}else {
 				System.out.println(locator + " disable!!!");
 			}
-			
+
 		}else {
 			System.out.println(locator + " doesn't exists!!!");
 		}
@@ -171,9 +177,9 @@ public class SeleniumWebDriver {
 	 * @param locator expect By.locatorName(locatorValue)
 	 * @param itemText visiable text 
 	 */
-	
+
 	public static void selctVisibleText(By locator, String itemText) {
-		
+
 		List<WebElement> elements = driver.findElements(locator);
 		if(elements.size()>0) {
 			WebElement element = driver.findElement(locator);
@@ -191,8 +197,8 @@ public class SeleniumWebDriver {
 				} catch (Exception e) {
 					System.out.println(itemText + " not available in the list");
 				}
-				
-/*				boolean bFound=false;
+
+				/*				boolean bFound=false;
 				String curText=null;
 				for(WebElement opt:options) {
 					if(opt.getText().trim().equalsIgnoreCase(itemText)) {
@@ -201,28 +207,53 @@ public class SeleniumWebDriver {
 						break;
 					}
 				}
-				
+
 				if(bFound==true) {
 					select.deselectByVisibleText(curText);
 					System.out.println(itemText + " selected successfully!!");
 				}else {
 					System.out.println(itemText + " not available in the list");
 				}*/
-				
-								
+
+
 			}else {
 				System.out.println(locator + " diable!!");
 			}
-			
-			
+
+
 		}else 
 			System.out.println(locator + "doesn't exists!!");
-		
-		
+
+
 	}
+
 	
 	
 	
+	public static void verifyElementExists(By locator) {
+		
+		List<WebElement> elements = driver.findElements(locator);
+		if(elements.size()>0) {
+			System.out.println(locator + " exists!!!");
+		}else {
+			System.out.println(locator + " doesn't exists!!!");
+		}
+	}
+
+	
+	public static void assertElement(By locator) {
+		
+		try {
+			WebElement elemnt=driver.findElement(locator);
+			Assert.assertEquals(true, elemnt.isDisplayed());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+	}
+
 	
 	
+
 }

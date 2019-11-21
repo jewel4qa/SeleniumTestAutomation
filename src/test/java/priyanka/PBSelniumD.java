@@ -1,4 +1,4 @@
-package priyanka;
+/*package priyanka;
 
 
 import java.util.List;
@@ -69,12 +69,12 @@ public class PBSelniumD {
 
 		}
 
-		/**
+		*//**
 		 * click: method click on any given location.
 		 * @param locator Expect By.locatorName("locatorValue")..
 		 * @return void
 		 * @author ag9068
-		 */
+		 *//*
 		public static WebElement click(By locator) {
 			List<WebElement> element = driver.findElements(locator);
 			if(element.size()>0) {
@@ -140,11 +140,11 @@ public class PBSelniumD {
 
 		}
 
-		/**
+		*//**
 		 * 
 		 * @param locator
 		 * @param itemName
-		 */
+		 *//*
 		public static void selctUsingValue(By locator,String itemName) {
 
 			List<WebElement> elements = driver.findElements(locator);
@@ -168,11 +168,11 @@ public class PBSelniumD {
 
 		}
 
-		/**
+		*//**
 		 * selctVisibleText method select item from the given location by text value
 		 * @param locator expect By.locatorName(locatorValue)
 		 * @param itemText visiable text 
-		 */
+		 *//*
 		
 		public static void selctVisibleText(By locator, String itemText) {
 			
@@ -194,7 +194,7 @@ public class PBSelniumD {
 						System.out.println(itemText + " not available in the list");
 					}
 					
-	/*				boolean bFound=false;
+					boolean bFound=false;
 					String curText=null;
 					for(WebElement opt:options) {
 						if(opt.getText().trim().equalsIgnoreCase(itemText)) {
@@ -209,7 +209,7 @@ public class PBSelniumD {
 						System.out.println(itemText + " selected successfully!!");
 					}else {
 						System.out.println(itemText + " not available in the list");
-					}*/
+					}
 					
 									
 				}else {
@@ -225,7 +225,7 @@ public class PBSelniumD {
 		
 		
 		
-		/*public static void Checkbox(By locator) {
+		public static void Checkbox(By locator) {
 			List<WebElement> elements = driver.findElements(locator);
 				if(elements.size()>0) {
 					if(driver.findElement(locator).isEnabled()) {
@@ -237,7 +237,7 @@ public class PBSelniumD {
 
 				}else {
 					System.out.println(locator + " doesn't exists!!");
-				}*/
+				}
 		}	
 		
 		
@@ -247,3 +247,4 @@ public class PBSelniumD {
 
 
 }
+*/
