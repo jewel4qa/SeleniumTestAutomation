@@ -17,8 +17,9 @@ public class Amazon {
 		SeleniumWebDriver.selctVisibleText(By.id("searchDropdownBox"), "Women");		
 		SeleniumWebDriver.type(By.id("twotabsearchtextbox"), "Cute Dress");
 		SeleniumWebDriver.click(By.xpath("//input[@type='submit']"));
+		if
 		
-		
+		SeleniumWebDriver.click(By.xpath("//ul[@aria-labelledby='p_90-title']//input[@type='checkbox']"))
 		
 		
 		
