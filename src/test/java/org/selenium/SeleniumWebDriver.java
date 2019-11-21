@@ -85,6 +85,7 @@ public class SeleniumWebDriver {
 		}else {
 			System.out.println(locator + " doesn't exists!!");
 		}
+		return null;
 	}
 
 
