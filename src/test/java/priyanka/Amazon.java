@@ -1,7 +1,6 @@
 package priyanka;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.Select;
 import org.selenium.SeleniumWebDriver;
 
 public class Amazon {
@@ -17,9 +16,15 @@ public class Amazon {
 		SeleniumWebDriver.selctVisibleText(By.id("searchDropdownBox"), "Women");		
 		SeleniumWebDriver.type(By.id("twotabsearchtextbox"), "Cute Dress");
 		SeleniumWebDriver.click(By.xpath("//input[@type='submit']"));
-		if
+		int isDisplayed=SeleniumWebDriver.driver.findElements(By.xpath("//span[contains(text(),'result')] ")).size();
+		if (isDisplayed >0) {
+			SeleniumWebDriver.click(By.xpath("//ul[@aria-labelledby='p_90-title']//input[@type='checkbox']"));
+		}else {System.out.println("Not There Yet");
 		
-		SeleniumWebDriver.click(By.xpath("//ul[@aria-labelledby='p_90-title']//input[@type='checkbox']"))
+		}
+		
+		
+
 		
 		
 		
