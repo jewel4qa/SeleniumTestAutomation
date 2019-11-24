@@ -25,10 +25,10 @@ public class EbayDailyDeals {
 		//ELEMENT NOT ENTERACTABLE ALSO 
 		//SeleniumWebDriver.click(By.xpath("//a[contains(text(),'Laptops & Netbooks')]"));
 		
-		SeleniumWebDriver.click(By.xpath("//span[@class='ebayui-ellipsis-3']"));
+		//SeleniumWebDriver.click(By.xpath("//span[@class='ebayui-ellipsis-3']"));
 		//SeleniumWebDriver.selctUsingValue(By.xpath("//option[@id='msku-opt-0']"), "0");		
 		
-		SeleniumWebDriver.selctUsingValue(By.name("color"), "msku-opt-0");
+		//SeleniumWebDriver.selctUsingValue(By.name("color"), "msku-opt-0");
 		
 		
 		
