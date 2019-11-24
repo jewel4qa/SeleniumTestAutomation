@@ -1,6 +1,7 @@
 package org.selenium;
 
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -230,14 +231,17 @@ public class SeleniumWebDriver {
 	
 	
 	
-	public static void verifyElementExists(By locator) {
-		
+	public static boolean verifyElementExists(By locator) {
+		boolean bFound=false;
 		List<WebElement> elements = driver.findElements(locator);
 		if(elements.size()>0) {
 			System.out.println(locator + " exists!!!");
+			bFound=true;
 		}else {
 			System.out.println(locator + " doesn't exists!!!");
 		}
+		
+		return bFound;
 	}
 
 	
@@ -254,6 +258,62 @@ public class SeleniumWebDriver {
 	}
 
 	
+	public static void HandleAlert(String alertAcceptance) {
+
+		switch (alertAcceptance.toLowerCase()){
+		
+		case "accept":
+			driver.switchTo().alert().accept();
+			System.out.println("Allert accept ..");
+			break;
+		case "dismiss":
+			driver.switchTo().alert().dismiss();
+			System.out.println("Allert denied");
+			break;
+		default:
+			driver.switchTo().alert().sendKeys(alertAcceptance);
+			System.out.println(alertAcceptance +" type successfully.");
+			break;
+		
+		}
+		
+	}
 	
+	
+    public static boolean selectWindowByTitle(String title) {
+        boolean result = false;
+        try {
+            Set<String> availableWindows = driver.getWindowHandles();
+            System.out.println(availableWindows.size());
+            if (!availableWindows.isEmpty()) {
+                for (String windowId : availableWindows) {
+                    if (driver.switchTo().window(windowId).getTitle().equals(title)) {
+                        driver.switchTo().window(windowId);
+                        break;
+                    }
+                }
+            }
+            result = true;
+        } catch (Exception e) {
+           // logs.info("selectWindow Error_Message...." + e.getMessage());
+        }
+        return result;
+    }
+    
+    
+    public static void selectWindowByWindowId(String windowId) {
+    	
+    	Set<String> windows=driver.getWindowHandles();
+    	
+    	for(String w:windows) {
+    		if(!w.contentEquals(windowId)) {
+    			driver.switchTo().window(w);
+    			System.out.println("new window <" + w + "> switched..");
+    			break;
+    		}
+    	}
+    	
+    }
+    
 
 }

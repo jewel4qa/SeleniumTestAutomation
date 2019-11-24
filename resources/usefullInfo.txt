@@ -35,3 +35,11 @@ git diff HEAD <filename>
 https://www.toolsqa.com/
 https://www.toolsqa.com/selenium-webdriver/selenium-interview-questions-part-1/
 
+
+
+
+
+
+Handle Alert
+Handle iFrame
+Handle Window..
