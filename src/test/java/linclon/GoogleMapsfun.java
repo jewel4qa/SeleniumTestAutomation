@@ -13,8 +13,11 @@ public class GoogleMapsfun {
 		SeleniumWebDriver.clickWithJS(By.xpath("//*[@id=\"settings\"]/div/div[2]/div/ul[1]/li[2]/div/button[1]/label"));
 		SeleniumWebDriver.clickWithJS(By.xpath("//button[@class='maps-sprite-settings-chevron-left widget-settings-icon-close']"));
 		SeleniumWebDriver.type(By.xpath("//input[@id='searchboxinput']"), "Dhaka bangladesh");
-		SeleniumWebDriver.clickWithJS(By.xpath("//div[@id='sbse47']//div[@class='suggest-left-cell']"));
-		
+		//SeleniumWebDriver.click(By.xpath("div[@class='suggest-left-cell']"));
+		SeleniumWebDriver.clickWithJS(By.id("searchbox-searchbutton"));
+		SeleniumWebDriver.clickWithJS(By.xpath("//button[@id='widget-zoom-in']"));
+		SeleniumWebDriver.clickWithJS(By.xpath("//button[@id='widget-zoom-in']"));
+		SeleniumWebDriver.clickWithJS(By.xpath("//button[@id='widget-zoom-in']"));
 		
 		
 		
