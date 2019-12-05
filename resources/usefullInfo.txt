@@ -1,5 +1,5 @@
 Useful command for git:
-
+    
 cd- change dir
 pwd-> current dir
 ls- list of dir in current dir
@@ -39,7 +39,27 @@ https://www.toolsqa.com/selenium-webdriver/selenium-interview-questions-part-1/
 
 
 
+Handle Window..
 
 Handle Alert
 Handle iFrame
-Handle Window..
+
+File Read/Write (txt, Excel
+Reporting..
+
+
+
+
+POM--> Page Object Model..>
+Cucumber--> BDD
+
+
+
+Fitnesse--> ATDD
+
+junit
+TestNG
+Nuint
+
+
+Apachi POI-->
