@@ -1,0 +1,7 @@
+C://personaqlInfo/usercredentials.txt
+	username
+	password
+
+	newtours.. login using usercredentials.txt file
+	
+	

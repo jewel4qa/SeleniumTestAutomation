@@ -2,11 +2,12 @@ package linclon;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.selenium.SeleniumWebDriver;
 
 public class NewIkea {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		SeleniumWebDriver.openBrowser("chrome", "https://www.ikea.com/us/en/");
@@ -22,11 +23,31 @@ public class NewIkea {
 		SeleniumWebDriver.click(By.xpath("//button[contains(text(),'Price')]"));
 		
 		//does not clear out old data
-		//SeleniumWebDriver.type(By.xpath("//input[@placeholder]"), "200");
+		
+		WebElement lowPrice=SeleniumWebDriver.driver.findElement(By.xpath("//div[@class='range-price-range__indicators']/input[1]"));
+		
+		lowPrice.clear();
+		lowPrice.sendKeys("200");
+		Thread.sleep(3000);
+		lowPrice.sendKeys(Keys.TAB);
+		
+		//SeleniumWebDriver.type(By.xpath("//div[@class='range-price-range__indicators']/input[1]"), "200");
+		
+		
+		WebElement highPrice=SeleniumWebDriver.driver.findElement(By.xpath("//div[@class='range-price-range__indicators']/input[2]"));
+		
+		highPrice.clear();
+		highPrice.sendKeys("200");
+		Thread.sleep(3000);
+		highPrice.sendKeys(Keys.TAB);
+		
+		
+	//	SeleniumWebDriver.driver.findElement(By.xpath("//div[@class='range-price-range__indicators']/input[2]")).clear();
+	//	SeleniumWebDriver.type(By.xpath("//div[@class='range-price-range__indicators']/input[2]"), "400");
 		
 		//SeleniumWebDriver.click(By.xpath("//input[@placeholder]")).sendKeys(Keys.BACK_SPACE);
 		
-		SeleniumWebDriver.click(By.xpath("//input[@placeholder='179']")).sendKeys(Keys.chord(Keys.CONTROL, "a"));
+		//SeleniumWebDriver.click(By.xpath("//div[@class='range-price-range__indicators']/input[2]]")).sendKeys(Keys.chord(Keys.CONTROL, "a"));
 		
 		
 		
