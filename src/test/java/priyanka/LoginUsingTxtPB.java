@@ -49,7 +49,8 @@ public class LoginUsingTxtPB {
 			SeleniumWebDriver.type(By.name("userName"), userID);
 			SeleniumWebDriver.type(By.name("password"), password);
 			SeleniumWebDriver.click(By.name("login"));
-
+			SeleniumWebDriver.driver.close();
+			SeleniumWebDriver.driver.quit();
 			
 			
 		}
