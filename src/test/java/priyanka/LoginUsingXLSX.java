@@ -40,10 +40,10 @@ public class LoginUsingXLSX {
 			
 			SeleniumWebDriver.openBrowser("chrome", "http://www.newtours.demoaut.com/");
 			
-			SeleniumWebDriver.type(By.name("UserID"), userID);
+			SeleniumWebDriver.type(By.name("userName"), userID);
 			
 			Thread.sleep(5000);
-			SeleniumWebDriver.type(By.name("Password" ), password);
+			SeleniumWebDriver.type(By.name("password" ), password);
 			Thread.sleep(5000);
 			SeleniumWebDriver.click(By.name("login"));
 			Thread.sleep(5000);
