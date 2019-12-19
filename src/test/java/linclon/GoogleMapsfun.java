@@ -18,13 +18,13 @@ public class GoogleMapsfun {
 		SeleniumWebDriver.clickWithJS(By.xpath("//button[@id='widget-zoom-in']"));
 		SeleniumWebDriver.clickWithJS(By.xpath("//button[@id='widget-zoom-in']"));
 		SeleniumWebDriver.clickWithJS(By.xpath("//button[@id='widget-zoom-in']"));
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
 	}
 
 }

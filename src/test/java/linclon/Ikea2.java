@@ -9,7 +9,7 @@ public class Ikea2 {
 		// TODO Auto-generated method stub
 
 
-		SeleniumWebDriver.openBrowser("chrome", "https://www.ikea.com/us/en/");
+		SeleniumWebDriver.openBrowser("edge", "https://www.ikea.com/us/en/");
 		
 		SeleniumWebDriver.click(By.xpath("/html[1]/body[1]/header[1]/div[3]/div[1]/nav[1]/div[1]/ul[1]/li[3]/button[1]/span[1]"));
 		

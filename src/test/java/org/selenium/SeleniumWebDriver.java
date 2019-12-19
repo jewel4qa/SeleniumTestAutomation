@@ -37,7 +37,7 @@ public class SeleniumWebDriver {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
 		}else if(browserName.equalsIgnoreCase("edge")) {
-			System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/geckodriver");
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\src\\test\\driver\\msedgedriver.exe");
 			driver=new EdgeDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
