@@ -13,6 +13,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Assert;
 
 public class SeleniumWebDriver {
@@ -24,7 +25,12 @@ public class SeleniumWebDriver {
 
 		if(browserName.equalsIgnoreCase("chrome")) {
 			if(System.getProperty("os.name").toLowerCase().contains("mac")) {
-				System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/chromedriver");
+			//	System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/chromedriver");
+				
+				WebDriverManager.chromedriver().clearPreferences();
+				WebDriverManager.chromedriver().setup();
+				
+				
 			}else {
 				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\driver\\chromedriver.exe");
 			}

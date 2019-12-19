@@ -24,7 +24,7 @@ public class NewIkea {
 		
 		//does not clear out old data
 		
-		WebElement lowPrice=SeleniumWebDriver.driver.findElement(By.xpath("//div[@class='range-price-range__indicators']/input[1]"));
+		WebElement lowPrice=SeleniumWebDriver.driver.findElement(By.xpath("//input[@type='number']"));
 		
 		lowPrice.clear();
 		lowPrice.sendKeys("200");
@@ -34,10 +34,10 @@ public class NewIkea {
 		//SeleniumWebDriver.type(By.xpath("//div[@class='range-price-range__indicators']/input[1]"), "200");
 		
 		
-		WebElement highPrice=SeleniumWebDriver.driver.findElement(By.xpath("//div[@class='range-price-range__indicators']/input[2]"));
+		WebElement highPrice=SeleniumWebDriver.driver.findElement(By.xpath("//input[@type='number'][2]"));
 		
 		highPrice.clear();
-		highPrice.sendKeys("200");
+		highPrice.sendKeys("700");
 		Thread.sleep(3000);
 		highPrice.sendKeys(Keys.TAB);
 		

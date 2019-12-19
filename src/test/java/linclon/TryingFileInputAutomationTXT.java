@@ -37,8 +37,7 @@ public class TryingFileInputAutomationTXT {
 			System.out.println(id);
 			pas=pas.split("-->")[1];
 			System.out.println(pas);
-		
-			
+	
 			
 			
 	}
