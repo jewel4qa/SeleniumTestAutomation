@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,16 +15,17 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import bsh.This;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Assert;
 
 public class SeleniumWebDriver {
 	public static WebDriver driver;
 
-
-
+//	Logger log =Logger.getLogger(this.getClass().getSimpleName());
+	
 	public static void openBrowser(String browserName,String appUrl) {
-
+		
 		if(browserName.equalsIgnoreCase("chrome")) {
 			if(System.getProperty("os.name").toLowerCase().contains("mac")) {
 			//	System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/chromedriver");
@@ -37,21 +40,25 @@ public class SeleniumWebDriver {
 			driver=new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
+			getLog().info("Chrome browser open with specified url <" + appUrl + ">");
 		}else if(browserName.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/geckodriver");
 			driver=new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
+			getLog().info("Firefox browser open with specified url <" + appUrl + ">");
 		}else if(browserName.equalsIgnoreCase("edge")) {
 			System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/geckodriver");
 			driver=new EdgeDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
+			getLog().info("Edge browser open with specified url <" + appUrl + ">");
 		}else {
 			System.setProperty("webdriver.chrome.driver", "/Users/ag9068/seleniumDemo/gmail/src/test/driver/chromedriver");
 			driver=new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get(appUrl);
+			getLog().info("Chrome browser open with specified url <" + appUrl + ">");
 		}
 
 
@@ -69,12 +76,16 @@ public class SeleniumWebDriver {
 			if(driver.findElement(locator).isEnabled()) {
 				driver.findElement(locator).sendKeys(valueToType);
 				System.out.println(valueToType + " entered successfully into " + locator);
+				getLog().info(valueToType + " entered successfully into " + locator);
+				
 			}else {
 				System.out.println(locator+" disabled!!");
+				getLog().error(locator+" disabled. Unable to type value!!");
 			}
 
 		}else {
 			System.out.println(locator + " doesn't exists!!");
+			getLog().error(locator + " doesn't exists!!");
 		}
 
 	}
@@ -91,12 +102,15 @@ public class SeleniumWebDriver {
 			if(driver.findElement(locator).isEnabled()) {
 				driver.findElement(locator).click();
 				System.out.println(locator + " clicked Successfully!!");
+				getLog().info(locator + " clicked Successfully!!");
 			}else {
 				System.out.println(locator +" disable!!");
+				getLog().error(locator +" disable. Unable to click");
 			}
 
 		}else {
 			System.out.println(locator + " doesn't exists!!");
+			getLog().error(locator + " doesn't exists!!");
 		}
 		return null;
 	}
@@ -114,15 +128,20 @@ public class SeleniumWebDriver {
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					getLog().error("System through Interrupted Exception");
 				}
 				js.executeScript("arguments[0].click();", element);
 				System.out.println(locator + " clicked Successfully!!");
+				getLog().info(locator + " clicked Successfully!!");
+				
 			}else {
 				System.out.println(locator +" disable!!");
+				getLog().error(locator +" disable!!");
 			}
 
 		}else {
 			System.out.println(locator + " doesn't exists!!");
+			getLog().error(locator + " doesn't exists!!");
 		}
 	}
 
@@ -136,17 +155,21 @@ public class SeleniumWebDriver {
 					Select select=new Select (element);
 					select.selectByIndex(indexValue);
 					System.out.println("index " + indexValue+ " item selected successfully!!");
+					getLog().info("index " + indexValue+ " item selected successfully!!");
 				} catch (Exception e) {
 					System.out.println("index " + indexValue + " doesn't available");
+					getLog().error("index " + indexValue + " doesn't available");
 					e.getMessage();
 					//e.printStackTrace();
 				}
 			}else {
 				System.out.println(locator + " disable!!!");
+				getLog().error(locator + " disable!!!");
 			}
 
 		}else {
 			System.out.println(locator + " doesn't exists!!!");
+			getLog().error(locator + " doesn't exists!!!");
 		}
 
 	}
@@ -321,5 +344,17 @@ public class SeleniumWebDriver {
     	
     }
     
+    public static void tearDown() {
+    	driver.close();
+    	driver.quit();
+    	System.out.println("Browser close successfully!!");
+    }
 
+    public static Logger getLog() {
+    	Logger log=null;
+    	log=Logger.getLogger(This.class.getSimpleName());
+    	PropertyConfigurator.configure("log4j.properties");
+    	return log;
+    }
+    
 }

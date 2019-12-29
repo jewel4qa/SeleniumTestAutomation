@@ -1,17 +1,9 @@
 body {
-<<<<<<< HEAD
-    margin: 0 0 5px 5px;
-}
-
-ul {
-    margin: 0;
-=======
     margin: 0px 0px 5px 5px;
 }
 
 ul {
     margin: 0px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
 }
 
 li {
@@ -49,31 +41,19 @@ a:hover {
 }
 
 .suite {
-<<<<<<< HEAD
-    margin: 0 10px 10px 0;
-=======
     margin: 0px 10px 10px 0px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     background-color: #fff8dc;
 }
 
 .suite-name {
     padding-left: 10px;
     font-size: 25px;
-<<<<<<< HEAD
-    font-family: Times, sans-serif;
-=======
     font-family: Times;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
 }
 
 .main-panel-header {
     padding: 5px;
-<<<<<<< HEAD
-    background-color: #9FB4D9; /*afeeee*/;
-=======
     background-color: #9FB4D9; //afeeee;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     font-family: monospace;
     font-size: 18px;
 }
@@ -81,11 +61,7 @@ a:hover {
 .main-panel-content {
     padding: 5px;
     margin-bottom: 10px;
-<<<<<<< HEAD
-    background-color: #DEE8FC; /*d0ffff*/;
-=======
     background-color: #DEE8FC; //d0ffff;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
 }
 
 .rounded-window {
@@ -109,11 +85,7 @@ a:hover {
 
 .rounded-window-bottom {
     border-style: solid;
-<<<<<<< HEAD
-    border-width: 0 1px 1px 1px;
-=======
     border-width: 0px 1px 1px 1px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     border-bottom-right-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
     overflow: auto;
@@ -126,13 +98,8 @@ a:hover {
 
 .method-content {
     border-style: solid;
-<<<<<<< HEAD
-    border-width: 0 0 1px 0;
-    margin-bottom: 10px;
-=======
     border-width: 0px 0px 1px 0px;
     margin-bottom: 10;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     padding-bottom: 5px;
     width: 80%;
 }
@@ -147,11 +114,7 @@ a:hover {
     font-family: monospace;
     font-size: 12px;
     font-weight: bold;
-<<<<<<< HEAD
-    margin-top: 0;
-=======
     margin-top: 0px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     margin-left: 20px;
 }
 
@@ -172,13 +135,8 @@ a:hover {
     margin-top: 10px;
     width: 80%;
     border-style: solid;
-<<<<<<< HEAD
-    border-width: 1px 0 0 0;
-    font-family: Times, sans-serif;
-=======
     border-width: 1px 0px 0px 0px;
     font-family: Times;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     font-size: 18px;
     font-weight: bold;
 }
@@ -194,15 +152,9 @@ a:hover {
     left: 0;
     right: 0;
     padding: 5px;
-<<<<<<< HEAD
-    margin: 0 0 5px 0;
-    background-color: #0066ff;
-    font-family: Times, sans-serif;
-=======
     margin: 0px 0px 5px 0px;
     background-color: #0066ff;
     font-family: Times;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     color: #fff;
     text-align: center;
 }
@@ -212,32 +164,20 @@ a:hover {
 }
 
 .test-name {
-<<<<<<< HEAD
-    font-family: 'Lucida Grande', sans-serif;
-=======
     font-family: 'Lucida Grande';
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     font-size: 16px;
 }
 
 .suite-icon {
     padding: 5px;
     float: right;
-<<<<<<< HEAD
-    height: 20px;
-=======
     height: 20;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
 }
 
 .test-group {
     font: 20px 'Lucida Grande';
     margin: 5px 5px 10px 5px;
-<<<<<<< HEAD
-    border-width: 0 0 1px 0;
-=======
     border-width: 0px 0px 1px 0px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     border-style: solid;
     padding: 5px;
 }
@@ -262,17 +202,10 @@ table.google-visualization-table-table {
 
 .reporter-method-output-div {
     padding: 5px;
-<<<<<<< HEAD
-    margin: 0 0 5px 20px;
-    font-size: 12px;
-    font-family: monospace;
-    border-width: 0 0 0 1px;
-=======
     margin: 0px 0px 5px 20px;
     font-size: 12px;
     font-family: monospace;
     border-width: 0px 0px 0px 1px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     border-style: solid;
 }
 
@@ -283,17 +216,10 @@ table.google-visualization-table-table {
 
 .ignored-methods-div {
     padding: 5px;
-<<<<<<< HEAD
-    margin: 0 0 5px 20px;
-    font-size: 12px;
-    font-family: monospace;
-    border-width: 0 0 0 1px;
-=======
     margin: 0px 0px 5px 20px;
     font-size: 12px;
     font-family: monospace;
     border-width: 0px 0px 0px 1px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     border-style: solid;
 }
 
@@ -301,11 +227,7 @@ table.google-visualization-table-table {
     border-top-left-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
     border-style: solid;
-<<<<<<< HEAD
-    border-width: 0 0 0 10px;
-=======
     border-width: 0px 0px 0px 10px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     border-color: #f00;
 }
 
@@ -313,11 +235,7 @@ table.google-visualization-table-table {
     border-top-left-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
     border-style: solid;
-<<<<<<< HEAD
-    border-width: 0 0 0 10px;
-=======
     border-width: 0px 0px 0px 10px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     border-color: #edc600;
 }
 
@@ -325,11 +243,7 @@ table.google-visualization-table-table {
     border-top-left-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
     border-style: solid;
-<<<<<<< HEAD
-    border-width: 0 0 0 10px;
-=======
     border-width: 0px 0px 0px 10px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     border-color: #19f52d;
 }
 
@@ -363,15 +277,9 @@ table.google-visualization-table-table {
 }
 
 .chronological-class {
-<<<<<<< HEAD
-    background-color: skyblue;
-    border-style: solid;
-    border-width: 0 0 1px 1px;
-=======
     background-color: #0ccff;
     border-style: solid;
     border-width: 0px 0px 1px 1px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
 }
 
 .method-start {
@@ -379,11 +287,7 @@ table.google-visualization-table-table {
 }
 
 .chronological-class-name {
-<<<<<<< HEAD
-    padding: 0 0 0 5px;
-=======
     padding: 0px 0px 0px 5px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     color: #008;
 }
 
@@ -394,11 +298,7 @@ table.google-visualization-table-table {
 
 .navigator-suite-header {
     font-size: 22px;
-<<<<<<< HEAD
-    margin: 0 10px 5px 0;
-=======
     margin: 0px 10px 5px 0px;
->>>>>>> abd06f18546e7276ada3989406c434ceb4d1d5ab
     background-color: #deb887;
     text-align: center;
 }

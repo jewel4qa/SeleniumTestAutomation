@@ -27,7 +27,7 @@ public class LoginUsingExcel {
 
 	Sheet sheet=wb.getSheet("Practice");*/
 
-		Sheet sheet=ExcelUtility.getExcelSheet("/Users/ag9068/Documents/ImportantInfo.xlsx", "Sheet9");
+		Sheet sheet=ExcelUtility.getExcelSheet("./resources/testexcel.xlsx", "Credential");
 
 
 		int rowNum=sheet.getLastRowNum();
