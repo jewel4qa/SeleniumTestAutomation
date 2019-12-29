@@ -2,12 +2,21 @@ package testNG;
 
 import org.openqa.selenium.By;
 import org.selenium.SeleniumWebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class NewtoursLogin {
+	@BeforeTest
+	public void openAppication() {
+		SeleniumWebDriver.openBrowser("chrome", "http://www.newtours.demoaut.com/");
+	}
+	
+	
+	
   @Test
   public void verifyUserAbleTologin() throws InterruptedException {
-		SeleniumWebDriver.openBrowser("chrome", "http://www.newtours.demoaut.com/");
+		
 
 		SeleniumWebDriver.type(By.name("userName"), "salma11");
 
@@ -16,17 +25,25 @@ public class NewtoursLogin {
 
 		SeleniumWebDriver.click(By.xpath("//input[@name='login']"));
 
-	//	SeleniumWebDriver.driver.close();
 
-		//SeleniumWebDriver.driver.quit();
   }
   @Test
   public void verifyUserAbleTosearchOnewayFlight() throws InterruptedException {
 	  SeleniumWebDriver.click(By.xpath("//*[@value='oneway']"));
-	  SeleniumWebDriver.selctUsingValue(By.name("passCount"), "9");
-	  	
-	  SeleniumWebDriver.driver.quit(); 
+	  SeleniumWebDriver.selctUsingValue(By.name("passCount"), "3");
+	  	  
+  }
+  
+  
+  @Test
+  public void verifyUserAbleToSearchRoundtripFlight() {
 	  
+  }
+  
+  
+  @AfterTest
+  public void tearDown() {
+	  SeleniumWebDriver.driver.quit();
   }
   
 }
