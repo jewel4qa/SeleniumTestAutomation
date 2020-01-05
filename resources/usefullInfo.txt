@@ -58,7 +58,7 @@ Cucumber--> BDD
 Fitnesse--> ATDD
 
 junit
--->TestNG
+-->TestNG--> @DataProvider, log4j, testNG.xml
 NUnit
 
 

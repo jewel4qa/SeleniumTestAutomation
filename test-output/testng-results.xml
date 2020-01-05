@@ -2,20 +2,82 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40161" started-at="2019-12-19T02:41:28Z" finished-at="2019-12-19T02:42:08Z">
+  <suite name="Default suite" duration-ms="9146" started-at="2019-12-29T16:25:34Z" finished-at="2019-12-29T16:25:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40161" started-at="2019-12-19T02:41:28Z" finished-at="2019-12-19T02:42:08Z">
-      <class name="testNG.NewtoursLogin">
-        <test-method status="PASS" signature="verifyUserAbleTologin()[pri:0, instance:testNG.NewtoursLogin@3bfdc050]" name="verifyUserAbleTologin" duration-ms="9802" started-at="2019-12-19T02:41:28Z" finished-at="2019-12-19T02:41:38Z">
+    <test name="Default test" duration-ms="9146" started-at="2019-12-29T16:25:34Z" finished-at="2019-12-29T16:25:43Z">
+      <class name="testNG.DataDrivenTestCase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="beforeTest" is-config="true" duration-ms="2905" started-at="2019-12-29T16:25:34Z" finished-at="2019-12-29T16:25:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserAbleTologin -->
-        <test-method status="PASS" signature="verifyUserAbleTosearchOnewayFlight()[pri:0, instance:testNG.NewtoursLogin@3bfdc050]" name="verifyUserAbleTosearchOnewayFlight" duration-ms="30320" started-at="2019-12-19T02:41:38Z" finished-at="2019-12-19T02:42:08Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="f" duration-ms="3185" started-at="2019-12-29T16:25:37Z" data-provider="userLoginInfo" finished-at="2019-12-29T16:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[salma11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test4321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[One Way]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserAbleTosearchOnewayFlight -->
-      </class> <!-- testNG.NewtoursLogin -->
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="f" duration-ms="2866" started-at="2019-12-29T16:25:40Z" data-provider="userLoginInfo" finished-at="2019-12-29T16:25:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahlink]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[121212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Round Trip]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="afterTest" is-config="true" duration-ms="169" started-at="2019-12-29T16:25:43Z" finished-at="2019-12-29T16:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNG.DataDrivenTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

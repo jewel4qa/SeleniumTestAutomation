@@ -1,11 +1,16 @@
 package gmail;
 
 import java.util.concurrent.TimeUnit;
+import java.util.jar.Attributes.Name;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateAnAccount {
 	public static WebDriver driver = null;
@@ -24,13 +29,23 @@ public class CreateAnAccount {
 		// "C:\\Users\\grk4m\\eclipse-workspace\\gmail\\src\\test\\driver\\chromedriver.exe")
 		// good to have..
 
-		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "\\src\\test\\driver\\chromedriver.exe");
+		Logger log=Logger.getLogger(Name.class);
+		PropertyConfigurator.configure("Log4j.properties");
+	//	System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\src\\test\\driver\\chromedriver.exe");
+		
+		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/src/test/driver/chromedriver");
+		
+		WebDriverManager.chromedriver().clearPreferences();
+		WebDriverManager.chromedriver().setup();
+		
 		driver = new ChromeDriver();
-
+		log.info("Driver create successfully");
 		// implicit wait is conditional wait-- allocate maximum wait time
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
+		log.info("Implicity wait time set for 30 sec");
+		
+		
 		// expelicit wait is hard wait-- allocate fixed wait time
 		/*
 		 * try { Thread.sleep(30000); } catch (InterruptedException e) { // TODO
@@ -38,9 +53,11 @@ public class CreateAnAccount {
 		 */
 		driver.manage().window().maximize();
 		driver.get("http://newtours.demoaut.com/");
-
+		log.info("Newtours apps open..");
+		
 		driver.findElement(By.xpath("//a[text()='REGISTER']")).click();
 
+		
 		boolean isDisplay = driver.findElement(By.xpath("//img[@src='/images/masts/mast_register.gif'] "))
 				.isDisplayed();
 
@@ -51,7 +68,7 @@ public class CreateAnAccount {
 		}
 
 		// driver.findElement(By.name("firstName")).sendKeys("Priya");
-		CreateAnAccount.type(By.className("firstname"), "Priya");
+/*		CreateAnAccount.type(By.className("firstname"), "Priya");
 		CreateAnAccount.type(By.name("lastName"), "Pu");
 		CreateAnAccount.type(By.name("address1"), "123 Jump Streat");
 		CreateAnAccount.type(By.name("city"), "Jumper");
@@ -61,7 +78,7 @@ public class CreateAnAccount {
 		drpCountry.selectByVisibleText("BANGLADESH");
 		CreateAnAccount.type(By.name("email"), "pu@gmail.com");
 		CreateAnAccount.type(By.name("password"), "abcd1");
-		CreateAnAccount.type(By.name("confirmPassword"), "abcd1");
+		CreateAnAccount.type(By.name("confirmPassword"), "abcd1"); */
 
 		/*
 		 * driver.findElement(By.name("lastName")).sendKeys("Pu");
@@ -86,14 +103,14 @@ public class CreateAnAccount {
 		 * System.out.println("Try Harder!!"); }
 		 * 
 		 */
-		int isDisplay1 = driver.findElements(By.xpath("//font[contains(text(),'Thank you ford')]")).size();
+/*		int isDisplay1 = driver.findElements(By.xpath("//font[contains(text(),'Thank you ford')]")).size();
 
 		if (isDisplay1 > 0) {
 			System.out.println("Good Job!!!");
 		} else {
 			System.out.println("Try Harder!!");
 		}
-
+*/
 		/// html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p[2]/font/text()
 
 		// driver.quit();

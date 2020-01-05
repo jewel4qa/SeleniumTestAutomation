@@ -24,11 +24,11 @@ public class ReadExcelFile {
 		int rowNum=sheet.getLastRowNum();//count row -- 0 based
 		//System.out.println(rowNum);
 		
-		for(int i=1;i<=rowNum;i++) {
+		for(int i=1;i<=rowNum;i++) { //loop for each row
 			
 			Row row = sheet.getRow(i);
 			int colNum=row.getLastCellNum();	
-			for(int j=0;j<=colNum-1;j++) {
+			for(int j=0;j<=colNum-1;j++) { // loop for each column
 				
 				Cell cell=row.getCell(j,MissingCellPolicy.CREATE_NULL_AS_BLANK);
 				

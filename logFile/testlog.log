@@ -1,0 +1,4 @@
+2019-12-29 12:30:59,920 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2019-12-29 12:31:00,366 - This -INFO - salma11 entered successfully into By.name: userName
+2019-12-29 12:31:05,483 - This -INFO - test4321 entered successfully into By.name: password
+2019-12-29 12:31:12,554 - This -INFO - By.xpath: //input[@name='login'] clicked Successfully!!
