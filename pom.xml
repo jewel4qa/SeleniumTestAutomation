@@ -31,7 +31,7 @@
 			<version>3.141.59</version>
 		</dependency>
 
-<<<<<<< HEAD
+
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
@@ -48,20 +48,11 @@
 
 
 
-=======
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>4.1.1</version>
-</dependency>
-    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>3.7.1</version>
-    <scope>test</scope>
-</dependency>
->>>>>>> 0f6869fd51f84e9cb693ebaf39cd125c47db0fe1
+
+
+
+
+
 
 	</dependencies>
 </project>
