@@ -1,83 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9146" started-at="2019-12-29T16:25:34Z" finished-at="2019-12-29T16:25:43Z">
+  <suite started-at="2020-01-05T11:10:21 EST" name="Default suite" finished-at="2020-01-05T11:10:21 EST" duration-ms="54">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9146" started-at="2019-12-29T16:25:34Z" finished-at="2019-12-29T16:25:43Z">
-      <class name="testNG.DataDrivenTestCase">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="beforeTest" is-config="true" duration-ms="2905" started-at="2019-12-29T16:25:34Z" finished-at="2019-12-29T16:25:37Z">
+    <test started-at="2020-01-05T11:10:21 EST" name="Default test" finished-at="2020-01-05T11:10:21 EST" duration-ms="54">
+      <class name="testNG.NewtoursLogin">
+        <test-method is-config="true" signature="openAppication()[pri:0, instance:testNG.NewtoursLogin@2805c96b]" started-at="2020-01-05T11:10:21 EST" name="openAppication" finished-at="2020-01-05T11:10:21 EST" duration-ms="13" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+
+at org.selenium.SeleniumWebDriver.openBrowser(SeleniumWebDriver.java:43)
+at testNG.NewtoursLogin.openAppication(NewtoursLogin.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="f" duration-ms="3185" started-at="2019-12-29T16:25:37Z" data-provider="userLoginInfo" finished-at="2019-12-29T16:25:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[salma11]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test4321]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[One Way]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[London]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openAppication -->
+        <test-method signature="verifyUserAbleToSearchRoundtripFlight()[pri:0, instance:testNG.NewtoursLogin@2805c96b]" started-at="2020-01-05T11:10:21 EST" name="verifyUserAbleToSearchRoundtripFlight" finished-at="2020-01-05T11:10:21 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+
+at org.selenium.SeleniumWebDriver.openBrowser(SeleniumWebDriver.java:43)
+at testNG.NewtoursLogin.openAppication(NewtoursLogin.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="f" duration-ms="2866" started-at="2019-12-29T16:25:40Z" data-provider="userLoginInfo" finished-at="2019-12-29T16:25:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ahlink]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[121212]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Round Trip]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[London]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[New York]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyUserAbleToSearchRoundtripFlight -->
+        <test-method signature="verifyUserAbleTologin()[pri:0, instance:testNG.NewtoursLogin@2805c96b]" started-at="2020-01-05T11:10:21 EST" name="verifyUserAbleTologin" finished-at="2020-01-05T11:10:21 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+
+at org.selenium.SeleniumWebDriver.openBrowser(SeleniumWebDriver.java:43)
+at testNG.NewtoursLogin.openAppication(NewtoursLogin.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.DataDrivenTestCase@7d9d1a19]" name="afterTest" is-config="true" duration-ms="169" started-at="2019-12-29T16:25:43Z" finished-at="2019-12-29T16:25:43Z">
+        </test-method> <!-- verifyUserAbleTologin -->
+        <test-method signature="verifyUserAbleTosearchOnewayFlight()[pri:0, instance:testNG.NewtoursLogin@2805c96b]" started-at="2020-01-05T11:10:21 EST" name="verifyUserAbleTosearchOnewayFlight" finished-at="2020-01-05T11:10:21 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+The method getLog() from the type SeleniumWebDriver refers to the missing type Logger
+
+at org.selenium.SeleniumWebDriver.openBrowser(SeleniumWebDriver.java:43)
+at testNG.NewtoursLogin.openAppication(NewtoursLogin.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.beforeRun(TestRunner.java:613)
+at org.testng.TestRunner.run(TestRunner.java:584)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testNG.DataDrivenTestCase -->
+        </test-method> <!-- verifyUserAbleTosearchOnewayFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG.NewtoursLogin@2805c96b]" started-at="2020-01-05T11:10:21 EST" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1578240621485" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG.NewtoursLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
