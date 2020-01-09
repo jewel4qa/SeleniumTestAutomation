@@ -1,4 +1,4 @@
-package linclon;
+/*package linclon;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -11,10 +11,10 @@ public class QuizTryOuts {
 		
 		
 		System.setProperty("Chrome", "/gmail/src/test/driver/chromedriver.exe");
-		WebDriver Driver = new chromedriver; 
+		WebDriver Driver = new chromedriver(); 
 		
 		
-		/* SeleniumWebDriver.openBrowser("chrome", "http://www.newtours.demoaut.com/");
+		 SeleniumWebDriver.openBrowser("chrome", "http://www.newtours.demoaut.com/");
 
 Actions act = new Actions(SeleniumWebDriver); // where driver is WebDriver type
  
@@ -23,7 +23,7 @@ Actions act = new Actions(SeleniumWebDriver); // where driver is WebDriver type
  act.contextClick().perform();
 		
 		
-		*/
+		
 		
 		Alert alt = driver.switchTo().alert(); // to move control to alert popup
 		 
@@ -44,3 +44,4 @@ Actions act = new Actions(SeleniumWebDriver); // where driver is WebDriver type
 	}
 
 }
+*/

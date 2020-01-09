@@ -2,3 +2,134 @@
 2019-12-29 12:31:00,366 [main] INFO This - salma11 entered successfully into By.name: userName
 2019-12-29 12:31:05,483 [main] INFO This - test4321 entered successfully into By.name: password
 2019-12-29 12:31:12,554 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:22:06,016 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:22:36,094 [main] ERROR This - By.xpath: //*[@value='oneway'] doesn't exists!!
+2020-01-08 20:23:19,186 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:23:19,475 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:23:19,631 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:23:22,657 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:23:22,768 [main] INFO This - By.xpath: //*[@value='oneway'] clicked Successfully!!
+2020-01-08 20:25:07,649 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:25:07,674 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:25:07,677 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:25:07,679 [main] INFO This - **********************************************************
+2020-01-08 20:25:07,965 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:25:08,123 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:25:10,080 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:25:10,096 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:25:10,097 [main] INFO This - *******************verifyUserAbleTosearchOnewayFlight*******************
+2020-01-08 20:25:10,099 [main] INFO This - **********************************************************
+2020-01-08 20:25:10,218 [main] INFO This - By.xpath: //*[@value='oneway'] clicked Successfully!!
+2020-01-08 20:27:04,483 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:27:04,504 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:27:04,509 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:27:04,511 [main] INFO This - **********************************************************
+2020-01-08 20:27:04,775 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:27:04,931 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:27:06,901 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:27:06,912 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:27:06,915 [main] INFO This - *******************verifyUserAbleTosearchOnewayFlight*******************
+2020-01-08 20:27:06,917 [main] INFO This - **********************************************************
+2020-01-08 20:27:07,023 [main] INFO This - By.xpath: //*[@value='oneway'] clicked Successfully!!
+2020-01-08 20:37:12,399 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:37:12,418 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:37:12,423 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:37:12,425 [main] INFO This - **********************************************************
+2020-01-08 20:37:12,680 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:37:12,840 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:37:14,801 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:37:14,819 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:37:14,821 [main] INFO This - *******************verifyUserAbleToSearchRoundtripFlight*******************
+2020-01-08 20:37:14,824 [main] INFO This - **********************************************************
+2020-01-08 20:37:14,932 [main] INFO This - By.xpath: //*[@value='roundtrip'] clicked Successfully!!
+2020-01-08 20:37:15,049 [main] INFO This - 1 selected successfully!!
+2020-01-08 20:37:15,057 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:37:15,060 [main] INFO This - *******************verifyUserAbleTosearchOnewayFlight*******************
+2020-01-08 20:37:15,062 [main] INFO This - **********************************************************
+2020-01-08 20:37:15,183 [main] INFO This - By.xpath: //*[@value='oneway'] clicked Successfully!!
+2020-01-08 20:37:15,317 [main] INFO This - 3 selected successfully!!
+2020-01-08 20:38:01,443 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:38:01,462 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:38:01,467 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:38:01,469 [main] INFO This - **********************************************************
+2020-01-08 20:38:01,706 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:38:01,857 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:38:04,345 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:38:04,357 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:38:04,358 [main] INFO This - *******************verifyUserAbleToSearchRoundtripFlight*******************
+2020-01-08 20:38:04,360 [main] INFO This - **********************************************************
+2020-01-08 20:38:04,469 [main] INFO This - By.xpath: //*[@value='roundtrip'] clicked Successfully!!
+2020-01-08 20:38:04,576 [main] INFO This - 1 selected successfully!!
+2020-01-08 20:38:09,590 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:38:09,595 [main] INFO This - *******************verifyUserAbleTosearchOnewayFlight*******************
+2020-01-08 20:38:09,597 [main] INFO This - **********************************************************
+2020-01-08 20:38:09,674 [main] INFO This - By.xpath: //*[@value='oneway'] clicked Successfully!!
+2020-01-08 20:38:09,793 [main] INFO This - 3 selected successfully!!
+2020-01-08 20:43:42,804 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:43:42,870 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:43:42,872 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:43:42,875 [main] INFO This - **********************************************************
+2020-01-08 20:43:43,135 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:43:43,309 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:43:45,283 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:43:45,292 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:43:45,294 [main] INFO This - *******************verifyUserAbleToSearchRoundtripFlight*******************
+2020-01-08 20:43:45,296 [main] INFO This - **********************************************************
+2020-01-08 20:43:45,421 [main] INFO This - By.xpath: //*[@value='roundtrip'] clicked Successfully!!
+2020-01-08 20:43:45,530 [main] INFO This - 1 selected successfully!!
+2020-01-08 20:43:50,542 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:43:50,544 [main] INFO This - *******************verifyUserAbleTosearchOnewayFlight*******************
+2020-01-08 20:43:50,546 [main] INFO This - **********************************************************
+2020-01-08 20:43:50,653 [main] INFO This - By.xpath: //*[@value='oneway'] clicked Successfully!!
+2020-01-08 20:43:50,775 [main] INFO This - 3 selected successfully!!
+2020-01-08 20:45:07,747 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:45:07,820 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:45:07,825 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:45:07,830 [main] INFO This - **********************************************************
+2020-01-08 20:45:08,124 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:45:08,330 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:45:10,296 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:45:14,644 [main] INFO This - Chrome browser open with specified url <https://www.macys.com/>
+2020-01-08 20:45:17,670 [main] INFO This - By.xpath: //*[@id="myRewardsLabel-status"]/span[text()='Sign In'] clicked Successfully!!
+2020-01-08 20:51:33,915 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:51:34,000 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:51:34,006 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:51:34,008 [main] INFO This - **********************************************************
+2020-01-08 20:51:34,337 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:51:34,568 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:51:36,527 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 20:51:40,454 [main] INFO This - Chrome browser open with specified url <https://www.macys.com/>
+2020-01-08 20:51:46,412 [main] INFO This - By.xpath: //*[@id="myRewardsLabel-status"]/span[text()='Sign In'] clicked Successfully!!
+2020-01-08 20:53:05,346 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 20:53:05,432 [main] INFO This - ************* Begain Test Case *************************
+2020-01-08 20:53:05,436 [main] INFO This - *******************verifyUserAbleTologin*******************
+2020-01-08 20:53:05,440 [main] INFO This - **********************************************************
+2020-01-08 20:53:05,730 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 20:53:05,923 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 20:53:07,973 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 22:09:59,890 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 22:10:29,935 [main] ERROR This - By.id: userName doesn't exists!!
+2020-01-08 22:11:31,107 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 22:11:31,385 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 22:11:31,545 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 22:11:33,569 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 22:12:29,920 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 22:12:30,152 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 22:12:30,327 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 22:12:33,135 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 22:12:39,256 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 22:12:39,511 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 22:12:39,660 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 22:12:44,113 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 22:12:48,895 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 22:12:49,156 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 22:12:49,325 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 22:12:51,310 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 22:12:55,849 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 22:12:56,079 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 22:12:56,220 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 22:12:59,338 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-08 22:13:02,312 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-08 22:13:02,569 [main] INFO This - salma11 entered successfully into By.name: userName
+2020-01-08 22:13:02,747 [main] INFO This - test4321 entered successfully into By.name: password
+2020-01-08 22:13:05,740 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!

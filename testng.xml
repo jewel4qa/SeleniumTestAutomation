@@ -1,0 +1,8 @@
+<suite name="testNG">
+	<test name="testngTest">
+		<classes>
+			<class name="testNG.NewtoursLogin"/>
+			<class name="testNG.MacysLogin" />
+		</classes>
+	</test>
+</suite>

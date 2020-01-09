@@ -1,4 +1,4 @@
-package org.selenium;
+package selenium.org;
 
 import java.util.List;
 import java.util.Set;
@@ -19,7 +19,8 @@ import bsh.This;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Assert;
 
-public class SeleniumWebDriver {
+public class SeleniumSwd {
+	
 	public static WebDriver driver;
 
 //	Logger log =Logger.getLogger(this.getClass().getSimpleName());
@@ -366,5 +367,5 @@ public class SeleniumWebDriver {
     	getLog().info("*******************"+ testCaseName + "*******************");
     	getLog().info("**********************************************************");
     }
-    
+
 }

@@ -1,2 +1,4 @@
 /target/
 .classpath
+/logFile/
+/test-output/
