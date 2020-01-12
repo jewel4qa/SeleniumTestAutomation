@@ -133,3 +133,140 @@
 2020-01-08 22:13:02,569 [main] INFO This - salma11 entered successfully into By.name: userName
 2020-01-08 22:13:02,747 [main] INFO This - test4321 entered successfully into By.name: password
 2020-01-08 22:13:05,740 [main] INFO This - By.xpath: //input[@name='login'] clicked Successfully!!
+2020-01-12 08:31:03,997 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-12 08:31:04,260 [main] INFO This - jonney entered successfully into By.name: userName
+2020-01-12 08:37:02,715 [main] INFO This - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-12 08:37:32,815 [main] ERROR This - By.id: REGISTER doesn't exists!!
+2020-01-12 08:38:02,860 [main] ERROR This - By.id: header-signup-button doesn't exists!!
+2020-01-12 08:38:03,139 [main] INFO This - jonney entered successfully into By.name: userName
+2020-01-12 08:40:23,722 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 08:40:23,994 [main] INFO This - jonney entered successfully into By.name: userName
+2020-01-12 08:41:34,082 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 08:41:34,327 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 08:47:40,556 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 08:47:40,835 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 08:47:41,001 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 08:47:41,191 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 08:47:41,453 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 08:47:41,771 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 08:47:41,974 [main] INFO This - 233 entered successfully into By.name: address2
+2020-01-12 08:52:39,853 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 08:52:40,119 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 08:52:40,310 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 08:52:40,537 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 08:52:40,828 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 08:52:41,204 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 08:52:41,486 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 08:52:41,698 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 08:52:41,907 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 08:52:42,069 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 08:52:42,232 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 08:57:40,467 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 08:57:40,766 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 08:57:40,954 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 08:57:41,163 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 08:57:41,431 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 08:57:41,729 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 08:57:42,028 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 08:57:42,211 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 08:57:42,461 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 08:57:42,642 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 08:57:42,835 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 08:57:43,043 [main] INFO This - jack entered successfully into By.id: email
+2020-01-12 08:57:43,269 [main] INFO This - abcdefg entered successfully into By.name: password
+2020-01-12 08:57:43,480 [main] INFO This - abcdefg entered successfully into By.name: confirmPassword
+2020-01-12 08:57:43,648 [main] INFO This - click entered successfully into By.name: register
+2020-01-12 08:59:36,165 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 08:59:36,427 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 08:59:36,591 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 08:59:36,820 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 08:59:37,095 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 08:59:37,383 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 08:59:37,672 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 08:59:37,862 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 08:59:38,044 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 08:59:38,223 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 08:59:38,397 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 08:59:38,600 [main] INFO This - jack entered successfully into By.id: email
+2020-01-12 08:59:38,789 [main] INFO This - abcdefg entered successfully into By.name: password
+2020-01-12 08:59:38,961 [main] INFO This - abcdefg entered successfully into By.name: confirmPassword
+2020-01-12 08:59:39,113 [main] INFO This - click entered successfully into By.name: register
+2020-01-12 09:00:03,561 [main] ERROR This - By.name: SUBMIT doesn't exists!!
+2020-01-12 09:01:07,471 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 09:01:07,745 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 09:01:07,899 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 09:01:08,095 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 09:01:08,354 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 09:01:08,671 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 09:01:08,998 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 09:01:09,161 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 09:01:09,349 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 09:01:09,524 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 09:01:09,680 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 09:01:09,871 [main] INFO This - jack entered successfully into By.id: email
+2020-01-12 09:01:10,055 [main] INFO This - abcdefg entered successfully into By.name: password
+2020-01-12 09:01:10,236 [main] INFO This - abcdefg entered successfully into By.name: confirmPassword
+2020-01-12 09:01:40,266 [main] ERROR This - By.name: SUBMIT doesn't exists!!
+2020-01-12 09:02:50,960 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 09:02:51,228 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 09:02:51,420 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 09:02:51,635 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 09:02:51,915 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 09:02:52,233 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 09:02:52,539 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 09:02:52,726 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 09:02:52,915 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 09:02:53,095 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 09:02:53,248 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 09:02:53,426 [main] INFO This - jack entered successfully into By.id: email
+2020-01-12 09:02:53,619 [main] INFO This - abcdefg entered successfully into By.name: password
+2020-01-12 09:02:53,809 [main] INFO This - abcdefg entered successfully into By.name: confirmPassword
+2020-01-12 09:02:53,953 [main] INFO This - click entered successfully into By.name: register
+2020-01-12 09:03:24,007 [main] ERROR This - By.name: click doesn't exists!!
+2020-01-12 09:10:30,259 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 09:10:30,529 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 09:10:30,721 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 09:10:30,941 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 09:10:31,191 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 09:10:31,480 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 09:10:31,794 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 09:10:31,981 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 09:10:32,202 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 09:10:32,411 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 09:10:32,585 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 09:10:32,770 [main] INFO This - jack entered successfully into By.id: email
+2020-01-12 09:10:32,967 [main] INFO This - abcdefg entered successfully into By.name: password
+2020-01-12 09:10:33,177 [main] INFO This - abcdefg entered successfully into By.name: confirmPassword
+2020-01-12 09:11:03,242 [main] ERROR This - By.name: SUBMIT doesn't exists!!
+2020-01-12 09:11:59,749 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 09:12:00,021 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 09:12:00,210 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 09:12:00,420 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 09:12:00,693 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 09:12:01,023 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 09:12:01,333 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 09:12:01,563 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 09:12:01,783 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 09:12:02,016 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 09:12:02,196 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 09:12:02,383 [main] INFO This - jack entered successfully into By.id: email
+2020-01-12 09:12:02,624 [main] INFO This - abcdefg entered successfully into By.name: password
+2020-01-12 09:12:02,820 [main] INFO This - abcdefg entered successfully into By.name: confirmPassword
+2020-01-12 09:12:03,003 [main] INFO This - click entered successfully into By.name: register
+2020-01-12 09:12:33,050 [main] ERROR This - By.name: click doesn't exists!!
+2020-01-12 09:21:40,236 [main] INFO This - Chrome browser open with specified url <http://newtours.demoaut.com/mercuryregister.php>
+2020-01-12 09:21:40,500 [main] INFO This - jonney entered successfully into By.name: firstName
+2020-01-12 09:21:40,689 [main] INFO This - King entered successfully into By.name: lastName
+2020-01-12 09:21:40,917 [main] INFO This - 3012215712 entered successfully into By.name: phone
+2020-01-12 09:21:41,180 [main] INFO This - abc.deg@gmail.com entered successfully into By.name: userName
+2020-01-12 09:21:41,518 [main] INFO This - 2104 pinney branch cir entered successfully into By.name: address1
+2020-01-12 09:21:41,875 [main] INFO This - 233 pinney branch cir entered successfully into By.name: address2
+2020-01-12 09:21:42,146 [main] INFO This - bowie entered successfully into By.name: city
+2020-01-12 09:21:42,351 [main] INFO This - Alberta entered successfully into By.name: state
+2020-01-12 09:21:42,579 [main] INFO This - 20712 entered successfully into By.name: postalCode
+2020-01-12 09:21:42,813 [main] INFO This - click entered successfully into By.name: country
+2020-01-12 09:21:43,077 [main] INFO This - jack entered successfully into By.id: email
+2020-01-12 09:21:43,279 [main] INFO This - abcdefg entered successfully into By.name: password
+2020-01-12 09:21:43,475 [main] INFO This - abcdefg entered successfully into By.name: confirmPassword
+2020-01-12 09:21:43,648 [main] INFO This - click entered successfully into By.name: register
+2020-01-12 09:21:45,082 [main] INFO This - By.xpath: /html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[18]/td/input clicked Successfully!!

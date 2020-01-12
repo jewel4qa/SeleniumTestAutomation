@@ -21,6 +21,7 @@ import junit.framework.Assert;
 
 public class SeleniumWebDriver {
 	public static WebDriver driver;
+	public static Object openBrowser;
 
 //	Logger log =Logger.getLogger(this.getClass().getSimpleName());
 	
