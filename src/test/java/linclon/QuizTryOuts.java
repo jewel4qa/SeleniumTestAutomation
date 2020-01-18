@@ -1,5 +1,6 @@
-/*package linclon;
+package linclon;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.selenium.SeleniumWebDriver;
@@ -10,6 +11,23 @@ public class QuizTryOuts {
 		// TODO Auto-generated method stub
 		
 		
+		SeleniumWebDriver.openBrowser("chrome", "http://www.newtours.demoaut.com/");
+		SeleniumWebDriver.click(By.xpath("//a[contains(text(),'REGISTER')]"));
+		SeleniumWebDriver.driver.navigate().back();
+		SeleniumWebDriver.driver.navigate().forward();
+		SeleniumWebDriver.driver.getCurrentUrl();
+		
+		
+		/*	1. ASK ABOUT RIGHT CLICK 
+		 *  2. ASK DRAG AND DROP OPTION ALSO 
+		 * 	3. 
+		 * 
+		 * Actions act = new Actions(Chrome); // where driver is WebDriver type
+		 */
+
+		 
+		
+/*		
 		System.setProperty("Chrome", "/gmail/src/test/driver/chromedriver.exe");
 		WebDriver Driver = new chromedriver(); 
 		
@@ -37,11 +55,7 @@ Actions act = new Actions(SeleniumWebDriver); // where driver is WebDriver type
 		
 		
 		
-		
-		
-		
-
+		*/
 	}
 
 }
-*/

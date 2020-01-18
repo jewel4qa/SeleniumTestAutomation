@@ -270,3 +270,14 @@
 2020-01-12 09:21:43,475 - This -INFO - abcdefg entered successfully into By.name: confirmPassword
 2020-01-12 09:21:43,648 - This -INFO - click entered successfully into By.name: register
 2020-01-12 09:21:45,082 - This -INFO - By.xpath: /html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[18]/td/input clicked Successfully!!
+2020-01-18 18:04:12,074 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:07:10,142 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:07:10,760 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:08:04,628 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:08:05,290 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:08:32,260 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:08:32,960 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:09:27,969 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:09:28,641 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:10:11,511 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:10:12,108 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
