@@ -281,3 +281,11 @@
 2020-01-18 18:09:28,641 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
 2020-01-18 18:10:11,511 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
 2020-01-18 18:10:12,108 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:17:08,507 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:17:10,027 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:21:39,216 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:21:40,152 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:42:45,175 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:42:46,040 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-01-18 18:45:08,340 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
+2020-01-18 18:45:08,827 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!

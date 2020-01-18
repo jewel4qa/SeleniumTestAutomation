@@ -16,8 +16,12 @@ public class QuizTryOuts {
 		SeleniumWebDriver.driver.navigate().back();
 		SeleniumWebDriver.driver.navigate().forward();
 		SeleniumWebDriver.driver.getCurrentUrl();
-		
-		
+		String mytitle = SeleniumWebDriver.driver.getTitle();
+		System.out.println(mytitle);
+		String color = SeleniumWebDriver.driver.findElement(By.xpath("//font[contains(text(),'User')]")).getCssValue("color");
+		String backcolor = SeleniumWebDriver.driver.findElement(By.xpath("//font[contains(text(),'User')]")).getCssValue("background-color");
+		System.out.println(color);
+		System.out.println(backcolor);
 		/*	1. ASK ABOUT RIGHT CLICK 
 		 *  2. ASK DRAG AND DROP OPTION ALSO 
 		 * 	3. 
