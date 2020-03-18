@@ -289,3 +289,11 @@
 2020-01-18 18:42:46,040 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
 2020-01-18 18:45:08,340 - This -INFO - Chrome browser open with specified url <http://www.newtours.demoaut.com/>
 2020-01-18 18:45:08,827 - This -INFO - By.xpath: //a[contains(text(),'REGISTER')] clicked Successfully!!
+2020-02-02 12:28:40,989 - This -INFO - Chrome browser open with specified url <https://www.jobstreet.com/>
+2020-02-02 12:28:44,209 - This -INFO - By.id: malaysia clicked Successfully!!
+2020-02-02 12:28:46,332 - This -INFO - By.id: header-login-button clicked Successfully!!
+2020-02-02 12:28:46,615 - This -INFO - habib_links@yahoo.com entered successfully into By.id: login-email
+2020-02-02 12:28:46,748 - This -INFO - Idontknow123 entered successfully into By.id: login-password
+2020-02-02 12:28:48,826 - This -INFO - By.name: remember clicked Successfully!!
+2020-02-02 12:28:57,537 - This -INFO - By.id: login_btn clicked Successfully!!
+2020-02-02 12:28:59,837 - This -INFO - By.id: lbl_student clicked Successfully!!
